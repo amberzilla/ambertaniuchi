@@ -1,0 +1,22 @@
+<div class="general-container">
+  <div id="home-link">
+    <h6 class="right-align"><a href="/">Home</a></h4>
+  </div>
+  <div class="valign-wrapper menu-box #ffebee red lighten-5">
+    <div id="homepage-content" class="row">
+      <h2 class="col s12 valign center center-align">Hi, I'm Amber Taniuchi :)</h2>
+      <h4><%= link_to "About Me", about_me_path,
+                      id: "aboutme-link",
+                      class: "col s4 center center-align",
+                      remote: true %>
+      </h4>
+      <h4><%= link_to "Music", music_path,
+                      id: "music-link",
+                      class: "col s4 center center-align",
+                      remote: true %>
+      </h4>
+      <h4 id="contact-link" class="col s4 center center-align">Say Hi!</h4>
+    </div>
+    <div id="other-pages" class="row"></div>
+  </div>
+</div>
