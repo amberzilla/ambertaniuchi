@@ -19,6 +19,16 @@ $ ->
         $('#other-pages').html(data)
     $('#home-link').show()
 
+  $('#contact-link').on 'click', (e) ->
+    e.preventDefault()
+    $('#homepage-content').hide()
+    $.ajax
+      url: "/contact"
+      dataType: "html"
+      success: (data) ->
+        $('#other-pages').html(data)
+    $('#home-link').show()
+
 
 
 

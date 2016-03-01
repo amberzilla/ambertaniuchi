@@ -10,12 +10,16 @@
                       class: "col s4 center center-align",
                       remote: true %>
       </h4>
-      <h4><%= link_to "Music", music_path,
+      <h4><%= link_to "Music+", music_path,
                       id: "music-link",
                       class: "col s4 center center-align",
                       remote: true %>
       </h4>
-      <h4 id="contact-link" class="col s4 center center-align">Say Hi!</h4>
+      <h4><%= link_to "Say Hi!", contact_path,
+                      id: "contact-link",
+                      class: "col s4 center center-align",
+                      remote: true %>
+      </h4>
     </div>
     <div id="other-pages" class="row"></div>
   </div>
