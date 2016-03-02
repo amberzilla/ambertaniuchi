@@ -3,7 +3,7 @@ Just a little site about myself :)
 
 ### To see my page
 
-> go to [ambertaniuchi.herokuapp.com](https://ambertaniuchi.herokuapp.com/)
+> [ambertaniuchi.herokuapp.com](https://ambertaniuchi.herokuapp.com/)
 
 ### If you really want to run this locally
 
